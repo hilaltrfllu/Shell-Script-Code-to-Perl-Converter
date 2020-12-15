@@ -1,0 +1,13 @@
+Firstly i write the lex file and then yacc file (grammar rules in parse tree). I write the code to detect the error and warn user in any syntax or semantix error.
+I try the examples one by one and fix the typographical mistakes.
+And try the errorneous codes to verify my detecting code and control them.
+And then i write the codes to make perl converter.
+strcat(char dest*,const char *src) appends a string pointed to by src to the end of the string pointed to by dest.
+calloc allocates the requested memory and returns a pointer to it.
+calloc declaration -> void *calloc(size_t nitems,size_t size)
+
+SOME PROBLEMS THAT I ENCOUNTER:
+	When writing perl file,the code doesn't write close curly brackets "}" in if statement.
+	There is a little problem with tabs and spaces.
+	In mathematical progress, there is a priority rule problems because of paranthesis.
+ Without this problems it compiles successfully.
